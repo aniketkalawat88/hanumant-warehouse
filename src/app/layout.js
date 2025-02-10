@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +22,46 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        data-new-gr-c-s-check-loaded="14.1221.0"
+        data-gr-ext-installed=""
+        cz-shortcut-listen="true"
       >
+        <meta charSet="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>Mahesh Agro Food Industries</title>
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
+        <style
+          dangerouslySetInnerHTML={{
+            __html:
+              "\n   body {\n            font-family: 'Roboto', sans-serif;\n        }\n  ",
+          }}
+        />
+        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 bg-primary-main text-white py-2 px-4 rounded-r-lg z-10 flex flex-col gap-2">
+          <Link className="" href="#">
+            <i className="fab fa-facebook-f"></i>
+          </Link>
+          <Link className="" href="#">
+            <i className="fab fa-twitter"></i>
+          </Link>
+          <Link className="" href="#">
+            <i className="fab fa-linkedin-in"></i>
+          </Link>
+          <Link className="" href="#">
+            <i className="fab fa-pinterest"></i>
+          </Link>
+        </div>
+        <div className="fixed bottom-4 right-4 z-20">
+        <Link href={'tel:9876543210'} className="bg-primary-main text-white py-2 px-4 rounded-full flex items-center shadow-md">
+          <i className="fas fa-comments mr-2" /> Click Here To Chat
+        </Link>
+      </div>
         {children}
       </body>
     </html>
