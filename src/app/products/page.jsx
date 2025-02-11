@@ -6,67 +6,60 @@ import HeroSection from '../_components/hero-section';
 
 const products = [
   {
-    name: 'FOOD GRADE GUAR GUM',
+    name: 'GUAR REFINED DALL',
     description:
-      'Guar Gum, also called guaran, is a substance made from guar beans which has thickening and stabilizing properties useful in various industries, traditionally the food industry. Guar gum is used in dairy products like ice cream and yogurt, and also in baked goods and sauces.',
-    image: 'https://storage.googleapis.com/a1aa/image/9e32H7AbCriwlVtgb3o2xzoUywIP9qycXNON-XRRoHE.jpg',
-    alt: 'A bowl of food grade guar gum powder',
+      'Guar refined dall is obtained after processing guar seeds. It is widely used in various industries and food applications due to its high-quality standards and purity.',
+    image: `https://images.jdmagicbox.com/quickquotes/images_main/guar-refined-splits-neepo-splits-93-378580090-opje1.jpg`, 
+    alt: 'Guar refined dall',
   },
   {
-    name: 'INDUSTRIAL GRADE GUAR GUM',
+    name: 'GUAR ROASTED KORMA',
     description:
-      'Guar gum is a white to creamy colored, free-flowing powder, and free from extraneous matter. It is used as a natural thickener, emulsifier, stabilizer, and bonding agent in industries like textile, paper, explosives, and oil drilling.',
-    image: 'https://storage.googleapis.com/a1aa/image/I_Drm4rPcW56nGQeGfHzKFJeaRURvOPGIjo4PamHbRk.jpg',
-    alt: 'A bowl of industrial grade guar gum powder',
+      'Roasted Guar Korma is a high-protein animal feed supplement. It is roasted at high temperatures to enhance its protein content, making it highly digestible and nutritious for livestock and poultry.',
+    image: 'https://prodigyfoods.in/wp-content/uploads/2019/09/roasted.jpg',
+    alt: 'Guar roasted korma',
   },
   {
-    name: 'CASSIA GUM POWDER (E-427 FOOD)',
+    name: 'GUAR CHURI',
     description:
-      'Cassia Gum Powder is the purified flour from the endosperm of Cassia tora seeds. It is used as a thickener, emulsifier, foam stabilizer, and moisture-retaining agent in various food products.',
-    image: 'https://storage.googleapis.com/a1aa/image/bXiBvPhSi26EDZ7z1KaJNaqUgRJFid9zNpgYH8K8Ta4.jpg',
-    alt: 'A bowl of cassia gum powder (E-427 food)',
+      'Guar Churi is a by-product of guar gum processing, rich in protein and fiber. It is widely used in the cattle feed industry as a cost-effective and nutritious feed ingredient.',
+    image: 'https://5.imimg.com/data5/FG/MV/OQ/SELLER-13496523/cottan-seed-binola-.jpg', 
+    alt: 'Guar churi',
   },
   {
-    name: 'CASSIA GUM POWDER (E-499 PET FEED)',
+    name: 'CUMIN SEED (JEERA)',
     description:
-      'Cassia tora powder is made from cassia tora seeds and cassia tora splits, which have been used for years. In India, cassia tora is used as a natural pesticide in organic farms.',
-    image: 'https://storage.googleapis.com/a1aa/image/w47lm2GldDWENgVTHIt1vTkQ4lLS01ZZkwE2-E7RrAw.jpg',
-    alt: 'A bowl of cassia gum powder (E-499 pet feed)',
+      'Cumin seed, also known as Jeera, is one of the most widely used spices in Indian cuisine. It has a distinct aroma and flavor and is known for its health benefits, including aiding digestion.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVriOYiylS_ZqbRngEh9USE5Idr2kSIX99A&s', 
+    alt: 'Cumin seed (Jeera)',
   },
   {
-    name: 'GUAR SPLITS (PURITY 93%)',
+    name: 'DILL SEED',
     description:
-      'Guar Gum Split is refined endosperm derived from guar seed or cluster bean. It is mechanically separated from the guar seed and is used in producing guar gum powder.',
-    image: 'https://storage.googleapis.com/a1aa/image/guar_splits_93.jpg',
-    alt: 'A bowl of guar splits (purity 93%)',
+      'Dill seed is an aromatic spice widely used in pickling, seasoning, and herbal medicine. It has antibacterial properties and is known for its health benefits, including improving digestion.',
+    image: 'https://m.media-amazon.com/images/I/6105b8CYHZL.jpg', 
+    alt: 'Dill seed',
   },
   {
-    name: 'GUAR SPLITS (PURITY 95%)',
+    name: 'PSYLLIUM HUSK',
     description:
-      'Guar Gum Refined Split (Endosperm) is mechanically separated from guar seed. Guar beans are harvested and dried after the growing season before being processed.',
-    image: 'https://storage.googleapis.com/a1aa/image/guar_splits_95.jpg',
-    alt: 'A bowl of guar splits (purity 95%)',
+      'Psyllium husk is a high-fiber product used as a natural laxative and dietary supplement. It is widely used in pharmaceuticals, food, and dietary industries for its digestive benefits.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Psyllium_seed_husk_pile.JPG/1200px-Psyllium_seed_husk_pile.JPG', 
+    alt: 'Psyllium husk',
   },
   {
-    name: 'GUAR SPLITS (PURITY 98%)',
+    name: 'FENNEL SEED',
     description:
-      'Guar Gum Split is manufactured from Guar seeds and refined to different purity levels as per buyer requirements. It is commonly used in food and pharmaceutical industries.',
-    image: 'https://storage.googleapis.com/a1aa/image/guar_splits_98.jpg',
-    alt: 'A bowl of guar splits (purity 98%)',
+      'Fennel seed is a flavorful spice with a sweet and aromatic taste. It is commonly used in cooking, herbal tea, and as a digestive aid due to its carminative properties.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZUO_pFV3HLpHYZnVnuLb7pOTX08zbafsmDA&s', 
+    alt: 'Fennel seed',
   },
   {
-    name: 'FOOD GRADE TAMARIND POWDER',
+    name: 'FENUGREEK SEED',
     description:
-      'Tamarind is the fruit of a large tropical tree grown in forests, orchards, and as an avenue tree along the roads. It is mainly planted in South India and used in food applications.',
-    image: 'https://storage.googleapis.com/a1aa/image/tamarind_powder_food.jpg',
-    alt: 'A bowl of food-grade tamarind powder',
-  },
-  {
-    name: 'TEXTILE GRADE TAMARIND POWDER',
-    description:
-      'Tamarind Kernel Powder is one of the natural hydrocolloids used in the textile industry for sizing, printing, and finishing of fabrics.',
-    image: 'https://storage.googleapis.com/a1aa/image/tamarind_powder_textile.jpg',
-    alt: 'A bowl of textile-grade tamarind powder',
+      'Fenugreek seed is a powerful medicinal spice known for its numerous health benefits. It is used in food seasoning, herbal remedies, and as a dietary supplement for digestion and blood sugar control.',
+    image: 'https://cdn.britannica.com/05/118605-004-4D6BF054/Seeds-fenugreek.jpg?w=400&h=300&c=crop', 
+    alt: 'Fenugreek seed',
   },
 ];
 

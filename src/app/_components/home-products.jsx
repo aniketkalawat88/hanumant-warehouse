@@ -3,33 +3,33 @@ import HeadingMain from './headingMain';
 
 const products = [
   {
-    name: 'FOOD GRADE GUAR GUM',
+    name: 'GUAR REFINED DALL',
     description:
-      'Guar gum, also called guaran, is a substance made from guar beans which has thickening and stabilizing properties useful in various industries, traditionally the food industry, but increasingly the hydraulic fracturing industry. The guar seeds are dehusked, milled and screened to obtain the guar gum.',
-    image: 'https://storage.googleapis.com/a1aa/image/9e32H7AbCriwlVtgb3o2xzoUywIP9qycXNON-XRRoHE.jpg',
-    alt: 'A bowl of food grade guar gum powder',
+      'Guar refined dall is obtained after processing guar seeds. It is widely used in various industries and food applications due to its high-quality standards and purity.',
+    image: `https://images.jdmagicbox.com/quickquotes/images_main/guar-refined-splits-neepo-splits-93-378580090-opje1.jpg`, 
+    alt: 'Guar refined dall',
   },
   {
-    name: 'INDUSTRIAL GRADE GUAR GUM',
+    name: 'GUAR ROASTED KORMA',
     description:
-      'Guar gum is a white to creamy coloured, free flowing powder and free from extraneous matter. It is used as a Natural thickener, Emulsifier, Stabiliser, Bonding agent, Hydrocolloids, Gelling agent, Soil Stabilizer, Natural fiber, Flocculant, Fracturing agent, etc.',
-    image: 'https://storage.googleapis.com/a1aa/image/I_Drm4rPcW56nGQeGfHzKFJeaRURvOPGIjo4PamHbRk.jpg',
-    alt: 'A bowl of industrial grade guar gum powder',
+      'Roasted Guar Korma is a high-protein animal feed supplement. It is roasted at high temperatures to enhance its protein content, making it highly digestible and nutritious for livestock and poultry.',
+    image: 'https://prodigyfoods.in/wp-content/uploads/2019/09/roasted.jpg',
+    alt: 'Guar roasted korma',
   },
   {
-    name: 'CASSIA GUM POWDER (E-427 FOOD)',
+    name: 'GUAR CHURI',
     description:
-      'Cassia Gum Powder is the purified flour from the endosperm of the seeds of Cassia tora. The intended use of Cassia gum is as thickener, emulsifier, foam stabilizer, moisture retention agent, and texturizing agent in various food applications.',
-    image: 'https://storage.googleapis.com/a1aa/image/bXiBvPhSi26EDZ7z1KaJNaqUgRJFid9zNpgYH8K8Ta4.jpg',
-    alt: 'A bowl of cassia gum powder (E-427 food)',
+      'Guar Churi is a by-product of guar gum processing, rich in protein and fiber. It is widely used in the cattle feed industry as a cost-effective and nutritious feed ingredient.',
+    image: 'https://5.imimg.com/data5/FG/MV/OQ/SELLER-13496523/cottan-seed-binola-.jpg', 
+    alt: 'Guar churi',
   },
   {
-    name: 'CASSIA GUM POWDER (E-499 PET FEED)',
+    name: 'CUMIN SEED (JEERA)',
     description:
-      'Cassia tora powder made from cassia tora seeds and cassia tora splits are some ancient natural ingredients. In India, cassia tora is used as a natural thickener, emulsifier, and stabilizer in pet food and animal feed.',
-    image: 'https://storage.googleapis.com/a1aa/image/w47lm2GldDWENgVTHIt1vTkQ4lLS01ZZkwE2-E7RrAw.jpg',
-    alt: 'A bowl of cassia gum powder (E-499 pet feed)',
-  },
+      'Cumin seed, also known as Jeera, is one of the most widely used spices in Indian cuisine. It has a distinct aroma and flavor and is known for its health benefits, including aiding digestion.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVriOYiylS_ZqbRngEh9USE5Idr2kSIX99A&s', 
+    alt: 'Cumin seed (Jeera)',
+  }
 ];
 
 const HomeProducts = () => {

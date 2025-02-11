@@ -2,18 +2,18 @@ import React from "react";
 
 const products = [
   {
-    title: "FOOD GRADE GUAR GUM",
+    title: "PSYLLIUM HUSK",
     description:
-      "Guar gum, also called guaran, is a substance made from guar beans which has thickening and stabilizing properties useful in various industries, traditionally the food industry, but increasingly the hydraulic fracturing industry.The guar seeds are dehusked, milled and screened to obtain the guar gum .",
+      "Psyllium Husk is a natural dietary fiber derived from the Plantago ovata plant. It is widely used in health supplements, digestive health products, and gluten-free baking. Known for its ability to absorb water and improve gut health, psyllium husk is a key ingredient in many pharmaceutical and food applications.",
     image:
-      "https://storage.googleapis.com/a1aa/image/6yguFzPA_hL5ZaYesBiYHFU6xtN7c3uhdg8jQ07bptM.jpg",
+      "https://3.imimg.com/data3/BS/XN/MY-6208623/psyllium-husk-powder-500x500.jpg",
   },
   {
-    title: "INDUSTRIAL GRADE GUAR GUM",
+    title: "FENNEL SEED",
     description:
-      "Guar gum is a white to creamy coloured, free flowing powder and free from extraneous matter. It is used as a Natural thickener, Emulsifier, Stabiliser, Bonding agent, Hydrocolloids, Gelling agent, Soil Stabilizer, Natural fiber, Flocculant, Fracturing agent, etc",
+      "Fennel seeds are aromatic, flavorful, and rich in essential oils. They are used as a spice in cooking, a key ingredient in herbal teas, and a natural remedy for digestive issues. Fennel seeds are also known for their antioxidant properties and are widely used in Ayurvedic and traditional medicine.",
     image:
-      "https://storage.googleapis.com/a1aa/image/c4xpyWOQrDYaDnACVtxEShJQBWWQECiZ75HKPAQzNXY.jpg",
+      "https://5.imimg.com/data5/AC/EV/MY-5403766/fennel-seeds.jpg",
   },
 ];
 
@@ -31,7 +31,7 @@ const HomeSection = () => {
               />
               <h3 className="text-2xl font-bold mb-2 text-primary-main">
                 {product.title}
-                <span className="border mt-2 border-primary-main block w-36 mx-auto"></span>{" "}
+                <span className="border mt-2 border-primary-main block w-36 mx-auto"></span>
               </h3>
               <p className="text-black leading-8 my-4 text-justify">
                 {product.description}

@@ -3,47 +3,47 @@ import HeadingMain from './headingMain';
 
 const features = [
   {
-    icon: 'fas fa-globe-americas text-green-500',
-    title: 'ETHICAL BUSINESS PRACTICES',
+    icon: 'fas fa-handshake text-green-500',
+    title: 'TRUST & RELIABILITY',
     description:
-      'We are renowned and trusted for our reliability, irrespective of market movements such as those in 2011-12, and hence we have been a supplier of choice for multinational corporations for over 37 years.',
+      'HANUMANT Warehouse is known for its integrity and long-standing relationships with clients. We ensure fair business practices and deliver consistent quality in every order.',
   },
   {
-    icon: 'fas fa-apple-alt text-orange-500',
-    title: 'STRINGENT QUALITY CONTROL',
+    icon: 'fas fa-seedling text-orange-500',
+    title: 'PREMIUM QUALITY PRODUCTS',
     description:
-      'We are committed to consistently delivering high-quality products that meet or exceed customer specifications and we have implemented a QA System that enables us to meet this objective.',
+      'We supply only the best quality Guar products, spices, and agricultural commodities. Our strict quality control measures ensure purity and freshness.',
   },
   {
-    icon: 'fas fa-cogs text-yellow-500',
-    title: 'LATEST MANUFACTURING TECHNOLOGY',
+    icon: 'fas fa-industry text-yellow-500',
+    title: 'ADVANCED PROCESSING TECHNOLOGY',
     description:
-      'The processing machineries used by our company are packed with latest technologies to high quality products.',
+      'Our warehouse and processing units use modern technology to enhance efficiency, ensuring top-grade products for domestic and international markets.',
   },
   {
-    icon: 'fas fa-user-tie text-gray-500',
-    title: 'EXPERIENCED MANAGEMENT',
+    icon: 'fas fa-users text-gray-500',
+    title: 'EXPERIENCED TEAM',
     description:
-      'We are ably led by experienced professionals who have more than 35 years of experience in the industry.',
+      'With years of expertise in the industry, our team ensures smooth operations, from sourcing raw materials to final product delivery.',
   },
   {
     icon: 'fas fa-map-marker-alt text-green-500',
-    title: 'OPTIMAL LOCATION',
+    title: 'STRATEGIC LOCATION',
     description:
-      'Our factory is strategically located near key export facilities, ensuring efficient logistics and supply chain management.',
+      'Located in Merta City, India’s largest raw material mandi, we have access to premium-quality crops at competitive prices, ensuring cost-effective solutions for our buyers.',
   },
   {
     icon: 'fas fa-certificate text-blue-500',
-    title: 'SGS AUDITED & CERTIFIED',
+    title: 'QUALITY ASSURANCE & CERTIFICATION',
     description:
-      'We are SGS audited and certified, ensuring high standards of integrity, health & safety, and business ethics.',
+      'We follow international standards for quality assurance and have certifications to ensure our products meet global market requirements.',
   },
 ];
 
 const HomeFeature = () => {
   return (
     <div className="px-4 md:py-20 py-10 bg-gray-100">
-     <HeadingMain name={'OUR FEATURES'} />
+      <HeadingMain name={'OUR FEATURES'} />
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:mt-20 mt-10">
         {features.map((feature, index) => (
           <div key={index} className="p-6 rounded-lg flex items-start max-md:text-center max-sm:flex-col">
@@ -55,7 +55,6 @@ const HomeFeature = () => {
           </div>
         ))}
       </div>
-     
     </div>
   );
 };
