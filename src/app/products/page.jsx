@@ -79,7 +79,7 @@ const Page = () => {
             >
               <img
                 alt={product.alt}
-                className="w-auto h-full object-cover border-2 border-green-500 rounded-lg"
+                className="w-auto h-full object-cover border-2 border-primary-main rounded-lg"
                 src={product.image}
               />
               <div className="mt-4 md:mt-0 md:ml-4">

@@ -7,7 +7,7 @@ const ContactComp = () => {
       {/* Contact Information */}
       <section className="max-w-7xl mx-auto py-8 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white shadow-lg p-6 text-center">
-          <i className="fas fa-map-marker-alt text-green-600 text-4xl mb-4"></i>
+          <i className="fas fa-map-marker-alt text-primary-main text-4xl mb-4"></i>
           <h2 className="text-xl font-bold">Firm Name</h2>
           <p>HANUMANT Warehouse
           Kosiyanada, Merta Road Marg
@@ -15,7 +15,7 @@ const ContactComp = () => {
           District Nagour, Rajasthan, India</p>
         </div>
         <div className="bg-white shadow-lg p-6 text-center">
-          <i className="fas fa-map-marker-alt text-green-600 text-4xl mb-4"></i>
+          <i className="fas fa-map-marker-alt text-primary-main text-4xl mb-4"></i>
           <h2 className="text-xl font-bold">We Deal In</h2>
           <p>
             Guar Refined Dall Guar Roasted Korma, Guar Churi, Jeera, Dillseed,

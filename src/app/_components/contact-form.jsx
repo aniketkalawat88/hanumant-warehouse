@@ -15,7 +15,7 @@ const ContactForm = () => {
             First Name
           </label>
           <input
-            className="w-full border-b-2 border-gray-300 focus:border-green-600 outline-none py-2"
+            className="w-full border-b-2 border-gray-300 focus:border-primary-main outline-none py-2"
             id="first-name"
             name="first-name"
             placeholder="First Name *"
@@ -28,7 +28,7 @@ const ContactForm = () => {
             Last Name
           </label>
           <input
-            className="w-full border-b-2 border-gray-300 focus:border-green-600 outline-none py-2"
+            className="w-full border-b-2 border-gray-300 focus:border-primary-main outline-none py-2"
             id="last-name"
             name="last-name"
             placeholder="Last Name *"
@@ -41,7 +41,7 @@ const ContactForm = () => {
             Email
           </label>
           <input
-            className="w-full border-b-2 border-gray-300 focus:border-green-600 outline-none py-2"
+            className="w-full border-b-2 border-gray-300 focus:border-primary-main outline-none py-2"
             id="email"
             name="email"
             placeholder="abc@abc.com *"
@@ -54,7 +54,7 @@ const ContactForm = () => {
             Phone Number
           </label>
           <input
-            className="w-full border-b-2 border-gray-300 focus:border-green-600 outline-none py-2"
+            className="w-full border-b-2 border-gray-300 focus:border-primary-main outline-none py-2"
             id="phone"
             name="phone"
             placeholder="0XXXX XXXXX"
@@ -67,7 +67,7 @@ const ContactForm = () => {
             Message
           </label>
           <textarea
-            className="w-full border-b-2 border-gray-300 focus:border-green-600 outline-none py-2"
+            className="w-full border-b-2 border-gray-300 focus:border-primary-main outline-none py-2 resize-none"
             id="message"
             name="message"
             placeholder="Message"
@@ -77,7 +77,7 @@ const ContactForm = () => {
         </div>
         <div className="col-span-1 md:col-span-2">
           <button
-            className="bg-green-600 text-white px-6 py-2 rounded"
+            className="bg-primary-main text-white px-6 py-2 rounded"
             type="submit"
           >
             SUBMIT

@@ -36,12 +36,12 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className="bg-white border-primary-main border-b-2 py-4 ">
+    <nav className="bg-white border-primary-main border-b-2 py-2 ">
     <div className="flex items-center justify-between max-w-screen-xl px-4 mx-auto">
       <Link href='/' className="flex items-center">
         <img
-          src="https://bemyguestimagesne w.s3.ap-south-1.amazonaws.com/images/2024-09-01T05-26-57.600Z96.26911790648147.png"
-          className="h-6 mr-3 sm:h-10"
+          src="/logo.png"
+          className="h-10 mr-3 sm:h-16 scale-110"
           alt="Logo"
         />
       </Link>
@@ -92,11 +92,11 @@ const Navbar = () => {
     className="text-base font-semibold text-white uppercase dark:text-white"
   >
     <div className="flex items-center space-x-3 rtl:space-x-reverse">
-      {/* <img
-        src="https://bemyguestimages new.s3.ap-south-1.amazonaws.com/images/2024-09-01T05-26-57.600Z96.26911790648147.png"
+      <img
+        src="/logo.png"
         className="h-6"
         alt="Logo"
-      /> */}
+      />
     </div>
   </h5>
     <ul className="space-y-2 font-medium">

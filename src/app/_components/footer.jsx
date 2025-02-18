@@ -17,16 +17,16 @@ export default function Footer() {
       >
         {/* Logo & Slogan Section */}
         <div className="lg:col-span-1 col-span-2 grid items-start justify-items-center">
-          <div className="relative h-24 w-36 cursor-pointer">
-            <img src="/assests/images/homeImage/01.png" alt="No Preview" className="object-cover scale-100" />
+          <div className="relative h-24 w-28 cursor-pointer">
+            <img src="/logo.png" alt="No Preview" className="object-contain scale-100" />
           </div>
           <div className={"md:text-3xl sm:text-2xl text-xl text-center font-bold pb-3 "}>
             <span className="text-primary-main">Quality you can trust</span> <br /> Products you can rely on.
           </div>
           <div className="lg:flex gap-5 md:mt-5 hidden">
-            <FaFacebookF className="text-xl bg-primary-main h-10 w-10 p-2 rounded-xl" />
-            <CiTwitter className="text-xl bg-primary-main h-10 w-10 p-2 rounded-xl" />
-            <FaInstagram className="text-xl bg-primary-main h-10 w-10 p-2 rounded-xl" />
+            <FaFacebookF className="text-xl bg-primary-main text-white h-10 w-10 p-2 rounded-xl" />
+            <CiTwitter className="text-xl bg-primary-main text-white h-10 w-10 p-2 rounded-xl" />
+            <FaInstagram className="text-xl bg-primary-main text-white h-10 w-10 p-2 rounded-xl" />
           </div>
         </div>
 

@@ -26,7 +26,7 @@ const HomeSection = () => {
             <div key={index} className="mx-auto max-w-sm">
               <img
                 alt={product.title}
-                className="mx-auto mb-4 md:h-96 h-56"
+                className="mx-auto mb-4 md:h-80 h-56 w-full"
                 src={product.image}
               />
               <h3 className="text-2xl font-bold mb-2 text-primary-main">
