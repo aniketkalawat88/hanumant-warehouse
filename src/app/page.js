@@ -11,10 +11,10 @@ export default function Home() {
     <div>
       <Navbar />
       <HomeHerosection />
-      <HomeSection />
+      {/* <HomeSection /> */}
+      <HomeProducts />
       <HomeAbout />
       <HomeFeature />
-      <HomeProducts />
       <Footer />
     </div>
   );

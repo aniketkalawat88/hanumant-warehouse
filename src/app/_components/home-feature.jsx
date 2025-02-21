@@ -1,5 +1,6 @@
 import React from 'react';
 import HeadingMain from './headingMain';
+import Link from 'next/link';
 
 const features = [
   {
@@ -39,23 +40,60 @@ const features = [
       'We follow international standards for quality assurance and have certifications to ensure our products meet global market requirements.',
   },
 ];
+const arr = [
+  { icon: "fa-shield-alt", title: "Trust & Reliability" },
+  { icon: "fa-gem", title: "Premium Quality Products" },
+  { icon: "fa-cogs", title: "Advanced Processing Technology" },
+  { icon: "fa-users", title: "Experienced Team" },
+  { icon: "fa-map-marker-alt", title: "Strategic Location" },
+  { icon: "fa-certificate", title: "Quality Assurance & Certification" },
+]
 
 const HomeFeature = () => {
   return (
-    <div className="px-4 md:py-20 py-10 bg-gray-100">
-      <HeadingMain name={'OUR FEATURES'} />
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:mt-20 mt-10">
-        {features.map((feature, index) => (
-          <div key={index} className="p-6 rounded-lg flex items-start max-md:text-center max-sm:flex-col">
-            <i className={`${feature.icon} text-4xl mr-4 max-md:mx-auto max-md:mb-6`} />
-            <div>
-              <h2 className="md:text-xl text-lg font-semibold mb-2">{feature.title}</h2>
-              <p className="md:text-lg text-justify text-sm text-gray-600">{feature.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+<section className="bg-secondary-main/10 py-16">
+  <div className="max-w-7xl mx-auto text-center max-md:px-6">
+    {/* Title Section */}
+    <HeadingMain name="Our Features" />
+    <p className="text-lg text-primary-main max-w-2xl mx-auto mb-12">
+      Lorem ipsum dolor sit amet consectetur. Tempus nec sit morbi diam.
+      Faucibus netus mauris.
+    </p>
+
+    {/* Feature Grid */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {arr.map((feature, index) => (
+        <div
+          key={index}
+          className="bg-heaing-main p-6 sm:p-8 rounded-lg shadow-md"
+        >
+          <i
+            className={`fas ${feature.icon} text-secondary-main text-5xl mb-4`}
+          ></i>
+          <h3 className="text-lg sm:text-xl font-bold mb-2 text-primary-main">
+            {feature.title}
+          </h3>
+          <p className="text-color-main text-sm sm:text-base">
+            Mauris varius ut a sed consectetur in the adipiscing elit. Nam
+            tincidunt, sapien eget vehicula viverra.
+          </p>
+        </div>
+      ))}
     </div>
+
+    {/* Contact Button */}
+    <div className="mt-12">
+      <Link
+        className="bg-primary-main text-heaing-main text-lg font-semibold py-3 px-6 rounded-full hover:bg-secondary-main transition-all duration-300"
+        href="/blogs"
+      >
+        Our Blogs
+      </Link>
+    </div>
+  </div>
+</section>
+
+
   );
 };
 

@@ -34,29 +34,44 @@ const products = [
 
 const HomeProducts = () => {
   return (
-    <section className="my-10">
-      <div className="max-w-6xl mx-auto max-md:px-6">
-        <HeadingMain name={'OUR PRODUCTS'} />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {products.map((product, index) => (
-            <div
-              key={index}
-              className="grid md:grid-cols-2 items-center bg-white shadow-lg rounded-lg p-4"
-            >
-              <img
-                alt={product.alt}
-                className="w-auto h-full object-cover border-2 border-primary-main rounded-lg"
-                src={product.image}
-              />
-              <div className="mt-4 md:mt-0 md:ml-4">
-                <h2 className="text-primary-main font-bold text-base max-md:text-center w-full">{product.name}</h2>
-                <p className="text-gray-700 mt-2 text-justify text-sm leading-8">{product.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+    <div className="bg-primary-main/10">
+    <div className="max-w-7xl mx-auto py-10 max-md:px-6">
+      {/* Title Section */}
+      <div className="text-center mb-10">
+        <HeadingMain name="Our Products" />
+        <p className="text-base sm:text-lg text-color-main mt-2 max-w-2xl mx-auto">
+          Lorem ipsum dolor sit amet consectetur. Tempus metus cras non diam. Porta
+          urna et nec massa.
+        </p>
       </div>
-    </section>
+
+      {/* Product Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        {[1, 2, 3].map((product, index) => (
+          <div key={index} className="bg-heaing-main rounded-lg shadow-md overflow-hidden">
+            <img
+              alt="A pile of finely ground product"
+              className="w-full h-56 object-cover"
+              src="https://storage.googleapis.com/a1aa/image/Ux1cDRLI6H-xJ8ECW_Kxb_pYGfZYkJW3w4EMmxts3CQ.jpg"
+            />
+            <div className="p-5">
+              <h2 className="text-lg sm:text-xl font-bold mb-2 text-primary-main">
+                Product {product}
+              </h2>
+              <p className="text-color-main text-sm sm:text-base mb-4">
+                Lorem ipsum dolor sit amet consectetur. Diam id egestas enim ut
+                gravida penatibus.
+              </p>
+              <button className="w-full sm:w-auto bg-transparent text-primary-main font-semibold py-2 px-4 border border-primary-main rounded hover:bg-secondary-main hover:text-white transition duration-300">
+                Learn More
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    </div>
   );
 };
 
